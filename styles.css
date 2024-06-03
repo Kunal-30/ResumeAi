@@ -1,0 +1,346 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f0f2f5, #ffffff);
+}
+
+.container {
+    text-align: center;
+    padding: 80px 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header img {
+    width: 150px;
+}
+
+.header .buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.header .buttons button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.content h1 {
+    font-size: 76px;
+    color: #6c63ff;
+}
+
+.content h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.content .start-building {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.screenshot {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.screenshot img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.container {
+    text-align:left;
+    padding: 50px 20px;
+}
+
+.container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: 50;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.text-content {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-content .feature {
+    margin-bottom: 20px;
+}
+
+.text-content .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #6c63ff;
+}
+
+.text-content .feature p {
+    font-size: 16px;
+    color: #333;
+}
+
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-section {
+    background-color: #7e57c2;
+    color: white;
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-section h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.text-section p {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.text-section button {
+    background-color: white;
+    color: #7e57c2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.image-section {
+    flex: 1;
+    background-image: url('https://example.com/path-to-your-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.features div {
+    text-align: center;
+}
+
+.features div img {
+    width: 40px;
+    height: 40px;
+}
+
+.interface-container {
+    display: flex;
+    align-items: left;
+    max-width: 60;
+    max-height: 40;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.interface-image {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-right: 1px solid #e0e0e0;
+    margin-left: 40px;
+}
+
+.interface-text {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.interface-text h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.interface-text p {
+    margin: 20px 0;
+    line-height: 1.5;
+    color: #666;
+}
+
+.interface-text p::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: auto;
+    background-color: #7e57c2;
+    margin-bottom: 20px;
+}
+
+.library-section {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.library-section h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.library-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.library-image {
+    flex: 1;
+    max-width: 200px;
+}
+
+.library-image img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+.header h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #000000;
+}
+.header p {
+    font-size: 18px;
+    color: #000000;
+    margin: 20px 0;
+    justify-self: center;
+}
+.header .cta-button {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    justify-content: center;
+}
+.header .cta-button:hover {
+    background-color: #333;
+    color: white;
+    justify-content: center;
+}
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+.footer .logo {
+    display: block;
+    margin: 0 auto 20px;
+}
+.footer .nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+.footer .nav a:hover {
+    text-decoration: underline;
+}
+.footer .social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.footer .social img {
+    margin: 0 10px;
+    background: #ffffff;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+     border-radius: 15px;
+}
+.footer .social a:hover {
+    color: #ffffff;
+}
+.footer .legal {
+    font-size: 12px;
+}
